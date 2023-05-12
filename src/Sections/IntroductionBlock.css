@@ -1,0 +1,38 @@
+.Intro_wrapper{
+  height: 100vh;
+}
+
+.Title{
+  font-size: 8em;
+}
+
+.Description_Box{
+  /* outline: red dotted; */
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.Description_Box.leftText{
+  float: left;
+  width: 50%;
+}
+
+.Description_Box p{
+  /* outline: green dotted; */
+  
+  color: var(--accent-color-2);
+  text-align: left;
+}
+
+.Description_Box img{
+  /* outline: blue dotted; */
+  
+  object-fit: cover;
+  object-position: 0% 20%;
+  width: 50%;
+  max-height: 35vh;
+  margin-left: auto;
+}
